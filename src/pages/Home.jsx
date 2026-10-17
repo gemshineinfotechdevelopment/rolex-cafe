@@ -377,7 +377,7 @@ export default function Home({ onNavigate }) {
               <Award size={22} />
               <div>
                 <h5>Direct Helpline</h5>
-                <p>+91 9003772211</p>
+                <p>+91 9003772241</p>
               </div>
             </div>
           </div>

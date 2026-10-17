@@ -30,28 +30,28 @@ export default function Footer({ setCurrentPage }) {
               type="button"
               className="brand-logo" 
               onClick={() => handleNav('home')}
-              aria-label="Rolex Café Home"
-              style={{ background: 'none', border: 'none', padding: 0, cursor: 'pointer', marginBottom: '1rem', display: 'inline-flex' }}
+              aria-label="Rolex Cafe Home"
+              style={{ background: 'none', border: 'none', padding: 0, cursor: 'pointer', marginBottom: '1rem', display: 'inline-flex', alignItems: 'center' }}
             >
               <img 
                 src={shopLogo} 
-                alt="Rolex Café Logo" 
+                alt="Rolex Cafe Logo" 
                 className="brand-shop-logo" 
               />
               <div className="brand-vertical-divider" style={{ background: 'rgba(47, 119, 117, 0.4)' }} />
               <span className="brand-name-luxury" style={{ color: '#4A2808', textShadow: 'none' }}>
-                Rolex Café
+                Rolex Cafe
               </span>
             </button>
             <p className="footer-tagline">“Great Taste. Cool Vibes. Unforgettable Moments.”</p>
             <p>
               Sivakasi’s signature culinary destination on Velayutham Road. Where delicious food meets 
-              great vibes—serving monster burgers, stone-baked pizzas, sizzling momos, and creamy thickshakes.
+              great vibes—serving monster burgers, stone-baked pizzas, sizzling momos, and creamy milkshakes.
             </p>
             <div className="footer-social-row">
               {/* WhatsApp */}
               <a 
-                href="https://wa.me/919003772211" 
+                href="https://wa.me/919003772241" 
                 target="_blank" 
                 rel="noreferrer" 
                 className="social-icon-btn"
@@ -64,7 +64,7 @@ export default function Footer({ setCurrentPage }) {
 
               {/* Call Helpline */}
               <a 
-                href="tel:9003772211" 
+                href="tel:9003772241" 
                 className="social-icon-btn"
                 aria-label="Call Rolex Cafe"
               >
@@ -88,7 +88,7 @@ export default function Footer({ setCurrentPage }) {
             </div>
           </div>
 
-          {/* Navbar Links List Col */}
+          {/* Quick Navigation Links List Col */}
           <div className="footer-col">
             <h4>Quick Navigation</h4>
             <ul className="footer-links-list">
@@ -106,38 +106,6 @@ export default function Footer({ setCurrentPage }) {
             </ul>
           </div>
 
-          {/* Popular Categories Col */}
-          <div className="footer-col">
-            <h4>Popular Categories</h4>
-            <ul className="footer-links-list">
-              <li>
-                <button type="button" className="footer-link-btn" onClick={() => handleNav('menu')}>
-                  Gourmet Burgers
-                </button>
-              </li>
-              <li>
-                <button type="button" className="footer-link-btn" onClick={() => handleNav('menu')}>
-                  Woodfired Pizzas
-                </button>
-              </li>
-              <li>
-                <button type="button" className="footer-link-btn" onClick={() => handleNav('menu')}>
-                  Kurkure Momos
-                </button>
-              </li>
-              <li>
-                <button type="button" className="footer-link-btn" onClick={() => handleNav('menu')}>
-                  Mojitos & Shakes
-                </button>
-              </li>
-              <li>
-                <button type="button" className="footer-link-btn" onClick={() => handleNav('menu')}>
-                  Family & Chicken Combos
-                </button>
-              </li>
-            </ul>
-          </div>
-
           {/* Contact & Hours Col */}
           <div className="footer-col">
             <h4>Visit & Connect</h4>
@@ -152,8 +120,8 @@ export default function Footer({ setCurrentPage }) {
               </li>
               <li style={{ display: 'flex', gap: '0.6rem', alignItems: 'center', color: '#5A3B18', fontSize: '0.88rem' }}>
                 <Phone size={18} style={{ color: '#2F7775', flexShrink: 0 }} />
-                <a href="tel:9003772211" style={{ color: '#5A3B18', textDecoration: 'none', fontWeight: 600 }}>
-                  +91 9003772211
+                <a href="tel:9003772241" style={{ color: '#5A3B18', textDecoration: 'none', fontWeight: 600 }}>
+                  +91 9003772241
                 </a>
               </li>
               <li style={{ display: 'flex', gap: '0.6rem', alignItems: 'center', color: '#5A3B18', fontSize: '0.88rem' }}>
@@ -170,7 +138,7 @@ export default function Footer({ setCurrentPage }) {
 
         {/* Bottom Bar */}
         <div className="footer-bottom-bar">
-          <p>© {new Date().getFullYear()} ROLEX CAFÉ, Sivakasi. All Rights Reserved.</p>
+          <p>© {new Date().getFullYear()} ROLEX CAFE, Sivakasi. All Rights Reserved.</p>
           <p style={{ display: 'flex', alignItems: 'center', gap: '0.4rem' }}>
             Handcrafted with <Heart size={14} style={{ color: '#b91c1c' }} /> for Sivakasi food lovers
           </p>

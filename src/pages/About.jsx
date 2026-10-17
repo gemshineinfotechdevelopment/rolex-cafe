@@ -10,7 +10,7 @@ export default function About({ onNavigate }) {
       <section className="about-hero">
         <div className="section-container">
           <span className="section-pretitle">Our Story & Vibe</span>
-          <h1 className="section-title">WELCOME TO ROLEX CAFÉ</h1>
+          <h1 className="section-title">WELCOME TO ROLEX CAFE</h1>
           <BrushStroke width="220px" />
           <p className="section-subtitle" style={{ fontSize: '1.25rem', fontWeight: '600', color: '#2F7775', marginTop: '0.8rem' }}>
             Where delicious food meets great vibes! ☕🍔

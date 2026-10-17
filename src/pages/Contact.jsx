@@ -40,7 +40,7 @@ export default function Contact() {
                 </div>
                 <div className="contact-item-text">
                   <h4>Telephone & Direct Helpline</h4>
-                  <p><a href="tel:9003772211">+91 9003772211</a></p>
+                  <p><a href="tel:9003772241">+91 9003772241</a></p>
                 </div>
               </div>
 
@@ -68,7 +68,7 @@ export default function Contact() {
 
             <div style={{ marginTop: '2rem', paddingTop: '1.5rem', borderTop: '1px solid rgba(204, 157, 89, 0.25)', textAlign: 'center' }}>
               <a 
-                href="https://wa.me/919003772211?text=Hi%20Rolex%20Cafe%20Sivakasi"
+                href="https://wa.me/919003772241?text=Hi%20Rolex%20Cafe%20Sivakasi"
                 target="_blank" 
                 rel="noreferrer"
                 className="btn-primary"
