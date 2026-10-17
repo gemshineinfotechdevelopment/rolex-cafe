@@ -7,9 +7,11 @@ export default defineConfig({
   server: {
     port: 5022,
     host: true,
+    allowedHosts: ['rolex-cafe.gemshine.tech', '.gemshine.tech'],
   },
   preview: {
     port: 5022,
     host: true,
+    allowedHosts: ['rolex-cafe.gemshine.tech', '.gemshine.tech'],
   },
 });
