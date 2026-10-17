@@ -146,10 +146,10 @@ export default function Home({ onNavigate }) {
               d="M0,35 C280,95 440,0 720,45 C1000,90 1220,15 1440,40 L1440,100 L0,100 Z" 
               fill="rgba(226, 180, 108, 0.45)" 
             />
-            {/* Base Background Wave transitioning smoothly into Warm Cream canvas */}
+            {/* Base Background Wave transitioning smoothly into White canvas */}
             <path 
               d="M0,60 C260,110 500,20 800,70 C1100,120 1280,40 1440,65 L1440,100 L0,100 Z" 
-              fill="#F3E8D0" 
+              fill="#FFFFFF" 
             />
           </svg>
         </div>

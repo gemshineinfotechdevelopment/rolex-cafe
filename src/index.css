@@ -19,11 +19,11 @@
      6. Coffee Brown    : #714310
      7. Soft Vanilla    : #FCEDC4
   */
-  --color-canvas: #F3E8D0;             /* 1. Warm Ivory Cream primary canvas */
-  --color-canvas-subtle: #FCEDC4;      /* 7. Soft Vanilla elevated surface */
-  --color-canvas-alt: #EADBBE;         /* Warm ivory accent surface */
-  --color-surface: #FCEDC4;            /* 7. Soft Vanilla card surface */
-  --color-surface-hover: #FFF6E0;      /* Elevated card hover surface */
+  --color-canvas: #FFFFFF;             /* Pure White canvas */
+  --color-canvas-subtle: #FAFAFA;      /* Subtle clean surface */
+  --color-canvas-alt: #F5F5F7;         /* Soft clean accent surface */
+  --color-surface: #FFFFFF;            /* White card surface */
+  --color-surface-hover: #FAFAFA;      /* Card hover surface */
   
   /* Signature Muted Teal Accent */
   --color-teal: #2F7775;               /* 2. Muted Teal */
@@ -123,7 +123,7 @@ html {
 
 body {
   font-family: var(--font-body);
-  background-color: #F3E8D0;
+  background-color: #FFFFFF;
   color: var(--color-mocha);
   min-height: 100vh;
   width: 100%;
@@ -131,11 +131,6 @@ body {
   overflow-x: hidden;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: 
-    radial-gradient(circle at 15% 15%, rgba(226, 180, 108, 0.25) 0%, transparent 50%),
-    radial-gradient(circle at 85% 65%, rgba(47, 119, 117, 0.1) 0%, transparent 45%),
-    linear-gradient(180deg, #F3E8D0 0%, #FAEFD4 50%, #EFE1C5 100%);
-  background-attachment: fixed;
 }
 
 /* Custom Scrollbar */
@@ -143,12 +138,12 @@ body {
   width: 9px;
 }
 ::-webkit-scrollbar-track {
-  background: #EEDCB8;
+  background: #F5F5F7;
 }
 ::-webkit-scrollbar-thumb {
-  background: linear-gradient(to bottom, #E2B46C, #2F7775);
+  background: linear-gradient(to bottom, #CC9D59, #2F7775);
   border-radius: var(--radius-full);
-  border: 2px solid #EEDCB8;
+  border: 2px solid #F5F5F7;
 }
 ::-webkit-scrollbar-thumb:hover {
   background: #D4AF37;
@@ -208,8 +203,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Top Announcement Bar */
 .top-announcement {
-  background: linear-gradient(90deg, #F3E8D0 0%, #FCEDC4 50%, #F3E8D0 100%);
-  border-bottom: 1.5px solid rgba(204, 157, 89, 0.35);
+  background: #FFFFFF;
+  border-bottom: 1.5px solid rgba(204, 157, 89, 0.2);
   font-size: 0.82rem;
   color: #5A3B18;
   padding: 0.45rem 1rem;
@@ -523,12 +518,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   max-width: 350px;
   height: 100%;
-  background-color: #F3E8D0;
-  background-image: 
-    radial-gradient(circle at 10% 10%, rgba(226, 180, 108, 0.25) 0%, transparent 50%),
-    linear-gradient(180deg, #F3E8D0 0%, #FAEFD4 100%);
-  border-left: 2px solid rgba(204, 157, 89, 0.4);
-  box-shadow: -10px 0 40px rgba(0, 0, 0, 0.35);
+  background-color: #FFFFFF;
+  background-image: linear-gradient(180deg, #FFFFFF 0%, #FAFAFA 100%);
+  border-left: 1.5px solid rgba(204, 157, 89, 0.25);
+  box-shadow: -10px 0 40px rgba(0, 0, 0, 0.15);
   display: flex;
   flex-direction: column;
   padding: 1.25rem 1.4rem 2rem;
@@ -1447,9 +1440,9 @@ h1, h2, h3, h4, h5, h6 {
    FEATURE STRIP (WHY ROLEX CAFE)
    ========================================================================== */
 .feature-strip {
-  background: linear-gradient(135deg, #FCEDC4 0%, #F3E8D0 50%, #EADBBE 100%);
-  border-top: 1.5px solid rgba(204, 157, 89, 0.3);
-  border-bottom: 1.5px solid rgba(204, 157, 89, 0.3);
+  background: #FAFAFA;
+  border-top: 1px solid rgba(204, 157, 89, 0.2);
+  border-bottom: 1px solid rgba(204, 157, 89, 0.2);
   padding: 3.2rem 0;
   position: relative;
 }
@@ -2427,8 +2420,8 @@ h1, h2, h3, h4, h5, h6 {
 
 .form-control {
   width: 100%;
-  background-color: #F3E8D0;
-  border: 1.5px solid rgba(204, 157, 89, 0.4);
+  background-color: #FFFFFF;
+  border: 1.5px solid rgba(204, 157, 89, 0.35);
   border-radius: var(--radius-sm);
   padding: 0.75rem 1rem;
   color: #4A2808;
