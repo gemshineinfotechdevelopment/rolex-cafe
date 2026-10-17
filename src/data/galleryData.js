@@ -1,0 +1,111 @@
+// Rolexe Cafe - Gallery Data
+// High-resolution photography of food, handcrafted drinks, and cafe ambience
+import { rollsBites, shakesTrio } from '../assets/images';
+
+export const GALLERY_CATEGORIES = [
+  { id: 'all', label: 'All Photos' },
+  { id: 'burgers', label: 'Burgers' },
+  { id: 'pizzas', label: 'Artisan Pizzas' },
+  { id: 'momos-rolls', label: 'Momos & Rolls' },
+  { id: 'drinks', label: 'Shakes & Mojitos' },
+  { id: 'ambience', label: 'Cafe Ambience' },
+];
+
+export const GALLERY_ITEMS = [
+  {
+    id: 1,
+    title: 'Signature Double Chicken Beast Burger',
+    category: 'burgers',
+    aspect: 'tall',
+    image: 'https://images.unsplash.com/photo-1568901346375-23c9450c58cd?auto=format&fit=crop&w=900&q=85',
+    caption: 'Double fried fillet, melted cheddar, crisp lettuce, brioche bun.',
+  },
+  {
+    id: 2,
+    title: 'Woodfired Style Spicy Chicken Tikka Pizza',
+    category: 'pizzas',
+    aspect: 'wide',
+    image: 'https://images.unsplash.com/photo-1513104890138-7c749659a591?auto=format&fit=crop&w=900&q=85',
+    caption: 'Stretchy mozzarella cheese, clay-oven spiced chicken, slow-cooked marinara.',
+  },
+  {
+    id: 3,
+    title: 'Crispy Veg Rolls & Golden Cheese Nuggets',
+    category: 'momos-rolls',
+    aspect: 'square',
+    image: rollsBites,
+    caption: 'Delicious spiced vegetable rolls, molten cheese nuggets, and savoury cutlets.',
+  },
+  {
+    id: 4,
+    title: 'Velvety Belgian Chocolate Fudge Shake',
+    category: 'drinks',
+    aspect: 'tall',
+    image: 'https://images.unsplash.com/photo-1572490122747-3968b75cc699?auto=format&fit=crop&w=900&q=85',
+    caption: 'Gourmet dark chocolate, vanilla ice cream, whipped cream, chocolate shavings.',
+  },
+  {
+    id: 5,
+    title: 'Rolex Cafe Warm Evening Lighting & Seating',
+    category: 'ambience',
+    aspect: 'wide',
+    image: 'https://images.unsplash.com/photo-1554118811-1e0d58224f24?auto=format&fit=crop&w=900&q=85',
+    caption: 'Dramatic warm ambience designed for comfortable conversations and unforgettable memories.',
+  },
+  {
+    id: 6,
+    title: 'Crispy Golden Paneer Tikka Wrap',
+    category: 'momos-rolls',
+    aspect: 'square',
+    image: 'https://images.unsplash.com/photo-1626777552726-4a6b54c97e46?auto=format&fit=crop&w=900&q=85',
+    caption: 'Toasted paratha wrap packed with smoky marinated cottage cheese and mint mayo.',
+  },
+  {
+    id: 7,
+    title: 'Chilled Virgin Mint Lime Mojito with Crushed Ice',
+    category: 'drinks',
+    aspect: 'tall',
+    image: 'https://images.unsplash.com/photo-1551024709-8f23befc6f87?auto=format&fit=crop&w=900&q=85',
+    caption: 'Muddled fresh garden mint and lime with fizzy soda.',
+  },
+  {
+    id: 8,
+    title: 'Farmhouse Garden Fresh Veggie Pizza',
+    category: 'pizzas',
+    aspect: 'square',
+    image: 'https://images.unsplash.com/photo-1574071318508-1cdbab80d002?auto=format&fit=crop&w=900&q=85',
+    caption: 'Loaded with capsicum, red onions, mushrooms, and cherry tomatoes.',
+  },
+  {
+    id: 9,
+    title: 'Crispy Peri-Peri Chicken Burger with Cheese',
+    category: 'burgers',
+    aspect: 'wide',
+    image: 'https://images.unsplash.com/photo-1625813506062-0aeb1d7a094b?auto=format&fit=crop&w=900&q=85',
+    caption: 'Spicy peri-peri crunch with pepper jack cheese and jalapeños.',
+  },
+  {
+    id: 10,
+    title: 'Artisan Gourmet Thickshakes Trio',
+    category: 'drinks',
+    aspect: 'tall',
+    image: shakesTrio,
+    caption: 'Decadent Oreo, strawberry berry, and salted caramel thickshakes topped with fresh cream.',
+  },
+  {
+    id: 11,
+    title: 'Golden Fried Kurkure Chicken Momos',
+    category: 'momos-rolls',
+    aspect: 'wide',
+    image: 'https://images.unsplash.com/photo-1534422298391-e4f8c172dddb?auto=format&fit=crop&w=900&q=85',
+    caption: 'Crunchy golden crust on the outside, juicy spiced filling on the inside.',
+  },
+  {
+    id: 12,
+    title: 'Blue Curacao Sparkling Ocean Cooler',
+    category: 'drinks',
+    aspect: 'square',
+    image: 'https://images.unsplash.com/photo-1513558161293-cdaf765ed2fd?auto=format&fit=crop&w=900&q=85',
+    caption: 'Vibrant blue citrus refresher crowned with fresh mint sprigs and lemon wheel.',
+  },
+];
