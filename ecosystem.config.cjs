@@ -2,8 +2,7 @@ module.exports = {
   apps: [
     {
       name: 'rolex-cafe',
-      script: 'npm',
-      args: 'run preview',
+      script: 'server.cjs',
       instances: 1,
       autorestart: true,
       watch: false,
