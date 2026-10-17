@@ -149,7 +149,7 @@ export default function Home({ onNavigate }) {
             {/* Base Background Wave transitioning smoothly into Warm Cream canvas */}
             <path 
               d="M0,60 C260,110 500,20 800,70 C1100,120 1280,40 1440,65 L1440,100 L0,100 Z" 
-              fill="#F6E8C8" 
+              fill="#F3E8D0" 
             />
           </svg>
         </div>

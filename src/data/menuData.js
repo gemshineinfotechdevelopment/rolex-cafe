@@ -1,6 +1,16 @@
 // Rolex Cafe - Authentic Sivakasi Menu Data
 // Exact menu items, categories and pricing requested by Rolex Cafe
-import { rollsBites, heroAesthetic, heroFeast } from '../assets/images';
+import { 
+  rollsBites, 
+  heroAesthetic, 
+  heroFeast, 
+  vegMomos, 
+  paneerMomos, 
+  periPeriChickenMomos,
+  butterscotchMilkshake,
+  extraMayonnaise,
+  extraCheese,
+} from '../assets/images';
 
 export const MENU_CATEGORIES = [
   { id: 'all', label: 'All Items' },
@@ -263,7 +273,7 @@ export const MENU_ITEMS = [
     isVeg: true,
     tag: 'Steamed Pure',
     description: 'Delicate hand-pleated dumplings filled with freshly grated cabbage, carrots, ginger, and herbs. Served steaming with fiery red dip.',
-    image: 'https://images.unsplash.com/photo-1625246333195-78d9c38ad449?auto=format&fit=crop&w=700&q=80',
+    image: vegMomos,
   },
   {
     id: 'm2',
@@ -273,7 +283,7 @@ export const MENU_ITEMS = [
     isVeg: true,
     tag: 'Paneer Stuffed',
     description: 'Steaming dumplings packed with finely spiced fresh paneer, bell peppers, and mild herbs, served with chilli garlic dip.',
-    image: 'https://images.unsplash.com/photo-1541696432-82c6da8ce7bf?auto=format&fit=crop&w=700&q=80',
+    image: paneerMomos,
   },
   {
     id: 'm3',
@@ -333,7 +343,7 @@ export const MENU_ITEMS = [
     isVeg: false,
     tag: 'Crunch & Spice',
     description: 'Crispy fried chicken momos tossed in spicy African bird-eye peri-peri dust, paired with cooling garlic mayo.',
-    image: 'https://images.unsplash.com/photo-1569058242253-92a9c755a0ec?auto=format&fit=crop&w=700&q=80',
+    image: periPeriChickenMomos,
   },
   {
     id: 'm9',
@@ -416,12 +426,12 @@ export const MENU_ITEMS = [
   {
     id: 's3',
     category: 'shakes',
-    name: 'Butterscotch',
+    name: 'Butterscotch Milkshake',
     price: 100,
     isVeg: true,
     tag: 'Caramel Crunch',
     description: 'Golden buttery caramel sauce blended with rich ice cream, loaded with crunchy butterscotch praline bits.',
-    image: 'https://images.unsplash.com/photo-1588701740540-333cfc828e1a?auto=format&fit=crop&w=700&q=80',
+    image: butterscotchMilkshake,
   },
   {
     id: 's4',
@@ -497,7 +507,7 @@ export const MENU_ITEMS = [
     isVeg: true,
     tag: 'Dip Add-on',
     description: 'Rich, thick, velvety house garlic herb mayonnaise dip served in an extra dipping cup.',
-    image: 'https://images.unsplash.com/photo-1472476443507-c7a5948772fc?auto=format&fit=crop&w=700&q=80',
+    image: extraMayonnaise,
   },
   {
     id: 'e2',
@@ -507,6 +517,6 @@ export const MENU_ITEMS = [
     isVeg: true,
     tag: 'Melt Add-on',
     description: 'Hot molten layer of 100% pure melted dairy mozzarella & cheddar cheese poured over your favourite dish.',
-    image: 'https://images.unsplash.com/photo-1585109649139-366815a0d713?auto=format&fit=crop&w=700&q=80',
+    image: extraCheese,
   },
 ];

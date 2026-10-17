@@ -88,7 +88,7 @@ export default function Contact() {
               <h4 style={{ fontSize: '1.45rem', color: '#FCEDC4', marginBottom: '0.35rem', fontFamily: 'var(--font-heading)' }}>
                 Sivakasi, Tamil Nadu
               </h4>
-              <p style={{ fontSize: '0.92rem', color: '#F6E8C8', maxWidth: '340px', lineHeight: 1.55 }}>
+              <p style={{ fontSize: '0.92rem', color: '#F3E8D0', maxWidth: '340px', lineHeight: 1.55 }}>
                 Centrally located on Velayutham Road, just minutes away from Sivakasi New Bus Stand.
               </p>
             </div>

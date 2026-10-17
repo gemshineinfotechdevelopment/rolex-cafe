@@ -11,17 +11,17 @@
 
 :root {
   /* Warm Modern Cozy Palette (Reference: Core Cafe Aesthetic)
-     1. Warm Cream   : #F6E8C8
-     2. Muted Teal   : #2F7775
-     3. Golden Honey : #E2B46C
-     4. Caramel Beige: #CC9D59
-     5. Sage Green   : #536B55
-     6. Coffee Brown : #714310
-     7. Soft Vanilla : #FCEDC4
+     1. Warm Ivory Cream: #F3E8D0
+     2. Muted Teal      : #2F7775
+     3. Golden Honey    : #E2B46C
+     4. Caramel Beige   : #CC9D59
+     5. Sage Green      : #536B55
+     6. Coffee Brown    : #714310
+     7. Soft Vanilla    : #FCEDC4
   */
-  --color-canvas: #F6E8C8;             /* 1. Warm Cream primary canvas */
+  --color-canvas: #F3E8D0;             /* 1. Warm Ivory Cream primary canvas */
   --color-canvas-subtle: #FCEDC4;      /* 7. Soft Vanilla elevated surface */
-  --color-canvas-alt: #EEDCB8;         /* Warm cream accent surface */
+  --color-canvas-alt: #EADBBE;         /* Warm ivory accent surface */
   --color-surface: #FCEDC4;            /* 7. Soft Vanilla card surface */
   --color-surface-hover: #FFF6E0;      /* Elevated card hover surface */
   
@@ -123,7 +123,7 @@ html {
 
 body {
   font-family: var(--font-body);
-  background-color: #F6E8C8;
+  background-color: #F3E8D0;
   color: var(--color-mocha);
   min-height: 100vh;
   width: 100%;
@@ -134,7 +134,7 @@ body {
   background-image: 
     radial-gradient(circle at 15% 15%, rgba(226, 180, 108, 0.25) 0%, transparent 50%),
     radial-gradient(circle at 85% 65%, rgba(47, 119, 117, 0.1) 0%, transparent 45%),
-    linear-gradient(180deg, #F6E8C8 0%, #FAEFD4 50%, #F4E4BF 100%);
+    linear-gradient(180deg, #F3E8D0 0%, #FAEFD4 50%, #EFE1C5 100%);
   background-attachment: fixed;
 }
 
@@ -208,7 +208,7 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Top Announcement Bar */
 .top-announcement {
-  background: linear-gradient(90deg, #F6E8C8 0%, #FCEDC4 50%, #F6E8C8 100%);
+  background: linear-gradient(90deg, #F3E8D0 0%, #FCEDC4 50%, #F3E8D0 100%);
   border-bottom: 1.5px solid rgba(204, 157, 89, 0.35);
   font-size: 0.82rem;
   color: #5A3B18;
@@ -523,10 +523,10 @@ h1, h2, h3, h4, h5, h6 {
   width: 100%;
   max-width: 350px;
   height: 100%;
-  background-color: #F6E8C8;
+  background-color: #F3E8D0;
   background-image: 
     radial-gradient(circle at 10% 10%, rgba(226, 180, 108, 0.25) 0%, transparent 50%),
-    linear-gradient(180deg, #F6E8C8 0%, #FAEFD4 100%);
+    linear-gradient(180deg, #F3E8D0 0%, #FAEFD4 100%);
   border-left: 2px solid rgba(204, 157, 89, 0.4);
   box-shadow: -10px 0 40px rgba(0, 0, 0, 0.35);
   display: flex;
@@ -942,6 +942,8 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
   width: 100%;
   min-height: 100vh;
+  min-height: 100dvh;
+  min-height: 100svh;
   display: flex;
   align-items: center;
   overflow: hidden;
@@ -1124,14 +1126,27 @@ h1, h2, h3, h4, h5, h6 {
 
 @media (max-width: 900px) {
   .hero-showcase-section {
-    min-height: auto;
-    padding: 6rem 0 3rem;
+    min-height: 100vh;
+    min-height: 100dvh;
+    min-height: 100svh;
+    display: flex;
+    align-items: center;
+    padding: calc(var(--nav-height, 70px) + 1.5rem) 0 3.5rem;
   }
   .hero-showcase-container {
     padding: 2rem 1.5rem 4rem;
   }
+  .hero-showcase-img {
+    object-position: 52% 65%;
+  }
   .hero-showcase-vignette {
-    background: linear-gradient(to bottom, rgba(11, 8, 7, 0.85) 0%, rgba(11, 8, 7, 0.88) 100%);
+    background: linear-gradient(
+      to bottom,
+      rgba(11, 8, 7, 0.78) 0%,
+      rgba(11, 8, 7, 0.42) 38%,
+      rgba(11, 8, 7, 0.65) 72%,
+      rgba(11, 8, 7, 0.95) 100%
+    );
   }
   .header {
     padding: 1rem 1.5rem;
@@ -1432,7 +1447,7 @@ h1, h2, h3, h4, h5, h6 {
    FEATURE STRIP (WHY ROLEX CAFE)
    ========================================================================== */
 .feature-strip {
-  background: linear-gradient(135deg, #FCEDC4 0%, #F6E8C8 50%, #EEDCB5 100%);
+  background: linear-gradient(135deg, #FCEDC4 0%, #F3E8D0 50%, #EADBBE 100%);
   border-top: 1.5px solid rgba(204, 157, 89, 0.3);
   border-bottom: 1.5px solid rgba(204, 157, 89, 0.3);
   padding: 3.2rem 0;
@@ -2412,7 +2427,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .form-control {
   width: 100%;
-  background-color: #F6E8C8;
+  background-color: #F3E8D0;
   border: 1.5px solid rgba(204, 157, 89, 0.4);
   border-radius: var(--radius-sm);
   padding: 0.75rem 1rem;
@@ -3115,12 +3130,24 @@ textarea.form-control {
 
   /* Hero Showcase Section */
   .hero-showcase-section {
-    min-height: auto;
-    padding: 5.5rem 0 3rem;
+    min-height: 100vh;
+    min-height: 100dvh;
+    min-height: 100svh;
+    display: flex;
+    align-items: center;
+    padding: calc(var(--nav-height, 70px) + 1rem) 0 3.2rem;
   }
 
   .hero-showcase-container {
-    padding: 2rem 1.25rem 3.5rem;
+    padding: 1.5rem 1.25rem 3.5rem;
+  }
+
+  .hero-showcase-img {
+    object-position: 52% 68%;
+  }
+
+  .hero-bottom-waves {
+    height: 48px;
   }
 
   .hero-showcase-content {
@@ -3454,11 +3481,22 @@ textarea.form-control {
 
   /* Hero Showcase */
   .hero-showcase-section {
-    padding: 4.6rem 0 2rem;
+    min-height: 100vh;
+    min-height: 100dvh;
+    min-height: 100svh;
+    padding: calc(var(--nav-height, 70px) + 0.5rem) 0 2.5rem;
   }
 
   .hero-showcase-container {
-    padding: 1.25rem 0.9rem 2.2rem;
+    padding: 1rem 0.9rem 2.8rem;
+  }
+
+  .hero-showcase-img {
+    object-position: 52% 70%;
+  }
+
+  .hero-bottom-waves {
+    height: 38px;
   }
 
   .hero-script-lead .script-text {
