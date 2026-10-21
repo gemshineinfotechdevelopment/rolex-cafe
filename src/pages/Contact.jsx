@@ -65,18 +65,6 @@ export default function Contact() {
                 </div>
               </div>
             </div>
-
-            <div style={{ marginTop: '2rem', paddingTop: '1.5rem', borderTop: '1px solid rgba(204, 157, 89, 0.25)', textAlign: 'center' }}>
-              <a 
-                href="https://wa.me/919003772241?text=Hi%20Rolex%20Cafe%20Sivakasi"
-                target="_blank" 
-                rel="noreferrer"
-                className="btn-primary"
-                style={{ display: 'inline-flex', padding: '0.65rem 1.6rem', fontSize: '0.92rem' }}
-              >
-                Chat on WhatsApp
-              </a>
-            </div>
           </div>
 
           {/* Card 2: Stylized Sivakasi Location Map Card */}
